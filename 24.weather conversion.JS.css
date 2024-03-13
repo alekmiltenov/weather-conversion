@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(210, 210, 210);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: aquamarine;
+}
+
+form{
+    max-width:400px;
+    border: solid 3px rgb(56, 56, 56);
+    background-color: aliceblue;
+    margin:auto;
+    border-radius: 15px;  
+    box-shadow: 10px 15px 50px;
+    
+
+}
+#textBox{
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    border:solid 3px
+
+}
+#button{
+    padding-top:10px ;
+    border: none;
+    background-color: transparent;
+    font-size: 1.3em;
+
+}
+#button:hover{
+    color: hsla(0, 0%, 0%, 0.573);
+}
+#button:active{
+    color: rgb(251, 0, 0);
+    
+}
